@@ -11,7 +11,7 @@ export const Room = () => {
       serverSecret,
       roomID,
       Date.now().toString(),
-      "Jan"
+      "Your Name"
     );
     const zp = ZegoUIKitPrebuilt.create(kitToken);
     zp.joinRoom({
